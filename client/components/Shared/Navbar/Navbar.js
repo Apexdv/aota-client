@@ -403,7 +403,7 @@ function Navbar({ BorderBottom, wallet }) {
               {isConnected ? "Mint" : "Connect Wallet"}
             </button> */}
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className={"nav-link " + Styles.navLinkTooo}>
                 {isConnected ? (
                   <Link href={"/public-sale"}>
@@ -420,7 +420,7 @@ function Navbar({ BorderBottom, wallet }) {
                   </button>
                 )}
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
